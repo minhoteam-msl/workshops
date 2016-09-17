@@ -1,7 +1,7 @@
 # Workshops MinhoTeam - LAR
 
-This repository holds information about workshops done by MinhoTeam @ LAR.
-The basic requirement for **ALL** workshops is to have a Linux Distro similar to Ubuntu installed natively or in virtual machine.
+This repository holds information about workshops done by MinhoTeam @ LAR.   
+##The basic requirement for *ALL* workshops is to have a Linux Distro similar to Ubuntu installed natively or in virtual machine.
    
    
 
