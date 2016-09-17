@@ -7,5 +7,5 @@ The basic requirement for **ALL** workshops is to have a Linux Distro similar to
 
 Workshop Name | Workshop Date | Workshop Requirements | Workshop Video  
 ------------- | ------------- | --------------------- | -------------- 
-Git&GitHub | 20/09/2016 | [Requirements](http://github.com/minhoteam-msl/workshops/blob/master/requirements/git.md) | [Video](http://youtube.com)
-ROS&Gazebo | TBA | [Requirements](http://github.com/minhoteam-msl/workshops/blob/master/requirements/empty.md) | [Video](http://youtube.com)
+Git&GitHub | 20/09/2016 | [Requirements](http://github.com/minhoteam-msl/workshops/blob/master/requirements/git.md) | [Video](https://www.youtube.com/watch?v=f40aulY2oTU)
+ROS&Gazebo | TBA | [Requirements](http://github.com/minhoteam-msl/workshops/blob/master/requirements/empty.md) | [Video](https://www.youtube.com/watch?v=f40aulY2oTU)
