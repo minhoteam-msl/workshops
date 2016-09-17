@@ -16,7 +16,13 @@ A local repository holds the data and the whole history of the tracked files, al
 
 * Adding files to repository and saving their history
     * $ **git add \<name-of-the-file\>** *tells git to track the history of that file*   
+    * $ **git add .** *this way you all the files and folders in the directory are tracked by git*
     * $ **git commit -m "comment-on-the-changes"** *saves an history log for the tracked files*
     * ** To commit all the files ** use flag -am instead of -m. This flag "adds" all tracked file to the commit.
+
+* Use **git log** to see the commit history and **git show \<commit-id\>** to show the changes done in commit <commit-id>
+
+###Remote Repository
+A remote repository holds the repository in an online server so you can easily share your work, work as a team and keep a backup of the data. This remote repository can be in the cloud (like https://github.com) or in a remote machine (server).
 
 *MinhoTeam 2016/2017*
