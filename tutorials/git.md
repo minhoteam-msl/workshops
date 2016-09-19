@@ -37,7 +37,7 @@ Given the example, with master branch:
 * $ **git push git@github.com:minhoteam-msl/workshops.git**
 
 For convenience, you can store a remote repository address in your local machine and give it an alias. You can also have multiple remotes stored for one local repository. Usually the alias is "origin".
-* $ **git remote add \<alias\> \<remote\_repository\_address>** 
+* $ **git remote add \<alias\> \<remote\_repository\_address\>** 
 
 Here are some useful commands for remotes:
 * $ **git remote -v** *Displays all the defined remotes*
