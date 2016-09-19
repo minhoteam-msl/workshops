@@ -45,6 +45,16 @@ Here are some useful commands for remotes:
 * $ **git remote set-url add \<alias\> \<remote\_repository\_address** *Adds another url to an existing remote*
 
 Now that you have your remotes defined you can send the local repository to the online repository using the push command.
-* $ **git push \<alias\> \<branch\**
-If you defined the remote using HTTPS you will be prompted to write your username and password from github. If you used SSH, you must define SSH keys to automatically authenticate the push.
+* $ **git push \<alias\> \<branch\>**
+If you defined the remote using HTTPS you will be prompted to write your username and password from github. If you used SSH, you must define SSH keys to automatically authenticate the push.   
+For that, go to Your Profile -> SSH and GPG Keys -> New SSH Key. First, an SSH key needs to be generated in your local machine.
+* $ **ssh-keygen -t rsa** *Press enter in every prompt*
+Your keys have been generated! Back to github!   
+* Give it a name under "Title"
+* On key paste the content of the key file under ~/.ssh/id_rsa.pub
+* Click 'Add SSH Key'
+
+You must be good to go, when making a push to a remote defined with the SSH link, you won't be prompted with any authenticantion procedure.
+
+
 *MinhoTeam 2016/2017*
