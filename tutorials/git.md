@@ -25,4 +25,26 @@ A local repository holds the data and the whole history of the tracked files, al
 ###Remote Repository
 A remote repository holds the repository in an online server so you can easily share your work, work as a team and keep a backup of the data. This remote repository can be in the cloud (like https://github.com) or in a remote machine (server).
 
+####On Github
+Github is an online repository server for Git! Git is the technology, Github is just a host/server. If you create an accout you can create repositories going to Your Profile -> Repositories -> New. Entering the repositorie's page, you can see a button of "Clone or Download". If you press it you can see two types of links:
+* HTTPS: https://github.com/minhoteam-msl/workshops.git
+* SSH : git@github.com:minhoteam-msl/workshops.git
+This is the address of the repository in the cloud. To push one of your local repositories into a Github repository you use the push command.
+
+* $ **git push \<remote\_repository\_address> \<branch\>**
+Given the example, with master branch:
+* $ **git push https://github.com/minhoteam-msl/workshops.git master**
+* $ **git push git@github.com:minhoteam-msl/workshops.git**
+
+For convenience, you can store a remote repository address in your local machine and give it an alias. You can also have multiple remotes stored for one local repository. Usually the alias is "origin".
+* $ **git remote add \<alias\> \<remote\_repository\_address>** 
+
+Here are some useful commands for remotes:
+* $ **git remote -v** *Displays all the defined remotes*
+* $ **git remote remove \<alias\>** *Removes remote defined by alias*
+* $ **git remote set-url add \<alias\> \<remote\_repository\_address** *Adds another url to an existing remote*
+
+Now that you have your remotes defined you can send the local repository to the online repository using the push command.
+* $ **git push \<alias\> \<branch\**
+If you defined the remote using HTTPS you will be prompted to write your username and password from github. If you used SSH, you must define SSH keys to automatically authenticate the push.
 *MinhoTeam 2016/2017*
