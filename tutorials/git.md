@@ -56,5 +56,19 @@ Your keys have been generated! Back to github!
 
 You must be good to go, when making a push to a remote defined with the SSH link, you won't be prompted with any authenticantion procedure.
 
+####On your own server
+If you create a server in your home/work network, you must forward network requests for ports 22 to your server's ip. In your server you will have to create a remote repository as well, and you start it by creating a normal folder, adding .git in the end just for identification of the folder:
+* $ **mkdir \<your-repo\>.git**
+* $ **cd \<your-repo\>.git**
+* $ **git init --bare** *This command actually initializes a git repository in that folder*
+
+Now, you just have to setup your remote server in the same way as for a Github remote, but using just SSH authentication. You can put the SSH keys on your server after you generate them (using ssh-keygen) by doing:
+* $ **ssh-copy-id \<user\>@\<server-ip\>**
+After correctly configuring the SSH authentication, just add your remote:
+* $ **git remote add \<alias\> ssh://\<user\>@\<server-ip\>/path_to_repo/\<repository-name\>.git**
+
+You are now ready to use local repositories, push data to remotes from Github and your own server !!
+
+###Branching
 
 *MinhoTeam 2016/2017*
