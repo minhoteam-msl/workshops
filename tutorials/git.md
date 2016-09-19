@@ -58,6 +58,7 @@ You must be good to go, when making a push to a remote defined with the SSH link
 
 ####On your own server
 If you create a server in your home/work network, you must forward network requests for ports 22 to your server's ip. In your server you will have to create a remote repository as well, and you start it by creating a normal folder, adding .git in the end just for identification of the folder:
+* $ **sudo apt-get install openssh-server** *Installs ssh server on machine*
 * $ **mkdir \<your-repo\>.git**
 * $ **cd \<your-repo\>.git**
 * $ **git init --bare** *This command actually initializes a git repository in that folder*
