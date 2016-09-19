@@ -48,8 +48,8 @@ Now that you have your remotes defined you can send the local repository to the 
 * $ **git push \<alias\> \<branch\>**
 If you defined the remote using HTTPS you will be prompted to write your username and password from github. If you used SSH, you must define SSH keys to automatically authenticate the push.   
 For that, go to Your Profile -> SSH and GPG Keys -> New SSH Key. First, an SSH key needs to be generated in your local machine.
-* $ **ssh-keygen -t rsa** *Press enter in every prompt*
-Your keys have been generated! Back to github!   
+* $ **ssh-keygen -t rsa** *Press enter in every prompt*   
+Your keys have been generated! Back to github!      
 * Give it a name under "Title"
 * On key paste the content of the key file under ~/.ssh/id_rsa.pub
 * Click 'Add SSH Key'
