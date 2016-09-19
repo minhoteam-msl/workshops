@@ -70,5 +70,8 @@ After correctly configuring the SSH authentication, just add your remote:
 You are now ready to use local repositories, push data to remotes from Github and your own server !!
 
 ###Branching
+Branching allows to create a bifurcation of a repository and work on that bifurcation without affecting the main branch, the master branch. This is useful when working withing a team, where different developpers can edit **DIFFERENT** files. Once the work is finished, the created branch(1) can be merged into the master branch(0), where collisions (error) might happen if some edition was done in the master branch after the branching happened or if another branch, say branch 2, edited files that were also edited in branch(1), that's why **DIFFERENT** files was said.
+
+
 
 *MinhoTeam 2016/2017*
